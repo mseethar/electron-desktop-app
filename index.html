@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSV Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="left-sidebar" class="sidebar">
+        <!-- Add a div for the resizable handle -->
+        <div class="resize-handle" id="left-resize-handle"></div>
+        <ul class="tree-menu">
+            <li><a href="#">Menu Item 1</a>
+                <ul>
+                    <li><a href="#">Sub Item 1.1</a></li>
+                    <li><a href="#">Sub Item 1.2</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Menu Item 2</a>
+                <ul>
+                    <li><a href="#">Sub Item 2.1</a></li>
+                    <li><a href="#">Sub Item 2.2</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Menu Item 3</a>
+                <ul>
+                    <li><a href="#">Sub Item 3.1</a></li>
+                    <li><a href="#">Sub Item 3.2</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div id="main-content">
+        <h1>CSV Viewer</h1>
+        <input type="file" id="fileSelector">
+        <table id="csvTable"></table>
+    </div>
+    <div id="right-sidebar" class="sidebar">
+        <!-- Add a div for the resizable handle -->
+        <div class="resize-handle" id="right-resize-handle"></div>
+        <ul class="tree-menu">
+            <li><a href="#">Menu Item A</a>
+                <ul>
+                    <li><a href="#">Sub Item A.1</a></li>
+                    <li><a href="#">Sub Item A.2</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Menu Item B</a>
+                <ul>
+                    <li><a href="#">Sub Item B.1</a></li>
+                    <li><a href="#">Sub Item B.2</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Menu Item C</a>
+                <ul>
+                    <li><a href="#">Sub Item C.1</a></li>
+                    <li><a href="#">Sub Item C.2</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <script src="renderer.js"></script>
+</body>
+</html>
